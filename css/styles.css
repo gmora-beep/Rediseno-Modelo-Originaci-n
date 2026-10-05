@@ -90,7 +90,8 @@ body{
 
 .menu{
     display:flex;
-    gap:8px;
+    gap:6px;
+    margin-left:40px;
 }
 
 .menu a{
