@@ -230,7 +230,6 @@ main{
     align-items:center;
     margin-top:72px;
 }
-``
 .hero-shapes{
     position:absolute;
     inset:0;
@@ -283,4 +282,98 @@ main{
     width:75px;
     right:0;
     background:#14346E;
+}
+/* RESUMEN GENERAL */
+.overview-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:40px;
+    padding:30px 40px;
+    background:#ffffff;
+}
+.overview-left{
+    flex:1;
+}
+.section-label{
+    display:block;
+    font-size:13px;
+    font-weight:700;
+    letter-spacing:2px;
+    color:#5A7097;
+    margin-bottom:12px;
+}
+.project-objective{
+    color:#4B5563;
+    font-size:18px;
+    line-height:1.8;
+    max-width:850px;
+}
+.project-dates{
+    display:flex;
+    gap:50px;
+    margin-top:28px;
+}
+.date-item{
+    display:flex;
+    flex-direction:column;
+}
+.date-item span{
+    font-size:13px;
+    color:#5A7097;
+    margin-bottom:4px;
+}
+.date-item strong{
+    color:#173A70;
+    font-size:16px;
+}
+.summary-card{
+    width:380px;
+    background:#F4F7FB;
+    border-radius:18px;
+    padding:28px;
+}
+.days-section{
+    text-align:center;
+}
+.card-label{
+    display:block;
+    color:#173A70;
+    font-size:12px;
+    font-weight:600;
+    margin-bottom:10px;
+}
+.days-section h2{
+    font-family:'Merriweather', serif;
+    font-size:72px;
+    line-height:1;
+    color:#173A70;
+    margin-bottom:10px;
+}
+.release-date{
+    font-size:13px;
+    color:#5A7097;
+}
+.card-divider{
+    height:1px;
+    background:#D9E2EF;
+    margin:20px 0;
+}
+.status-section{
+    text-align:center;
+}
+.status-pill{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+    font-size:30px;
+    font-weight:700;
+    color:#16A34A;
+}
+.status-dot{
+    width:16px;
+    height:16px;
+    border-radius:50%;
+    background:#22C55E;
 }
