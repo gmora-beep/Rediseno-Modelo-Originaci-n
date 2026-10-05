@@ -9,156 +9,25 @@
 *{
     margin:0;
     padding:0;
-   *box-sizing:border-box;
+    box-sizing:border-box;
 }
 
 body{
-  * font-family:'Montserrat',sans-ser*f;
-    background:var(--gris);
+    font-family:'Montserrat',sans-serif;
+    background:#F5F7FA;
 }
 
-*topbar{
-    height:90px;
-    backg*ound:#fff;
-    border-bottom:1px s*lid var(--borde);
-    display:flex*
-    align-items:center;
-    justi*y-content:space-between;
-    paddi*g:0 40px;
+h1{
+    color:#173A70;
+}
+
+.topbar{
+    background:white;
+    padding:20px;
+    border-bottom:1px solid #DDE5F0;
 }
 
 .brand{
-    display:f*ex;
-    align-items:center;
-    ga*:12px;
     font-weight:700;
-    co*or:var(--azul);
-}
-
-.brand-dot{
-   *width:14px;
-    height:14px;
-    b*rder-radius:50%;
-    background:va*(--verde);
-}
-
-.menu{
-    display:f*ex;
-    gap:30px;
-}
-
-.menu a{
-    *ext-decoration:none;
-    color:var*--azul);
-    font-weight:600;
-}
-
-.*enu a.active{
-    color:var(--verd*);
-}
-
-.update-info{
-    text-align*right;
-    font-size:12px;
-    col*r:#666;
-}
-
-.container{
-    max-wid*h:1400px;
-    margin:auto;
-    pad*ing:30px;
-}
-
-.hero{
-    background*#fff;
-    border-radius:24px;
-    *adding:40px;
-    display:flex;
-   *justify-content:space-between;
-   *gap:40px;
-}
-
-.hero-left{
-    flex:*;
-}
-
-.tag{
-    color:var(--azul-se*);
-    font-weight:600;
-}
-
-.hero h*{
-    color:var(--azul);
-    font-*ize:52px;
-    margin:10px 0 20px;
-*
-
-.hero p{
-    line-height:1.7;
-}
-*.dates{
-    display:flex;
-    gap:*0px;
-    margin-top:30px;
-}
-
-.date* div{
-    display:flex;
-    flex-d*rection:column;
-}
-
-.hero-right{
-  * width:350px;
-}
-
-.days-card,
-.stat*s-card{
-    background:#f8fbff;
-  * border-radius:18px;
-    padding:2*px;
-    margin-bottom:20px;
-}
-
-.da*s-card h2{
-    font-size:72px;
-   *color:var(--azul);
-    margin-top:*0px;
-}
-
-.status-card h3{
-    margi*-top:10px;
-    color:var(--verde);*}
-
-.timeline{
-    background:white*
-    border-radius:24px;
-    margi*-top:25px;
-    padding:40px;
-    m*n-height:180px;
-}
-
-.timeline h2{
- *  color:var(--azul);
-}
-
-.kpis{
-   *margin-top:25px;
-    display:grid;*    grid-template-columns:repeat(3*1fr);
-    gap:20px;
-}
-
-.kpi{
-    b*ckground:#fff;
-    border-radius:2*px;
-    padding:30px;
-    text-ali*n:center;
-}
-
-.kpi h2{
-    font-siz*:60px;
-    color:var(--azul);
-}
-
-.*pi p{
-    margin-top:8px;
+    color:#173A70;
 }
