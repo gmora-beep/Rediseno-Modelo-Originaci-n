@@ -223,8 +223,13 @@ main{
             #214D95 65%,
             #214D95 100%
         );
+    position:relative;
     overflow:hidden;
     display:flex;
+}
+.hero-shapes{
+    position:absolute;
+    inset:0;
 }
 .hero-content{
     position:relative;
