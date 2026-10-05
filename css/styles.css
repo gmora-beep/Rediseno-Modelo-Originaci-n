@@ -211,24 +211,18 @@ main{
 }
 /* ENCABEZADO PAGINA PRINCIPAL */
 .hero-banner{
-    position:relative;
-    height:150px;
     background:
         radial-gradient(
-            circle at top left,
-            rgba(80,140,220,.30),
-            transparent 45%
+            circle at 12% 15%,
+            rgba(120,180,255,.15),
+            transparent 35%
         ),
         linear-gradient(
             90deg,
-            #163F7A 0%,
-            #214F96 60%,
-            #214F96 100%
+            #153C75 0%,
+            #214D95 65%,
+            #214D95 100%
         );
-    overflow:hidden;
-    display:flex;
-    align-items:center;
-    padding:0 60px;
 }
 .hero-content{
     position:relative;
@@ -245,84 +239,30 @@ main{
     font-size:20px;
     margin:0;
 }
-.hero-shapes{
-    position:absolute;
-    inset:0;
-    pointer-events:none;
-}
-.shape{
-    position:absolute;
-    top:-40px;
-    height:220px;
-    border-radius:100px 0 0 100px;
-    transform:skewX(-20deg);
-}
-.shape-0{
+.band{
     position:absolute;
     top:-80px;
-    right:180px;
-    width:280px;
     height:260px;
-    background:rgba(130,190,255,.12);
     border-radius:120px 0 0 120px;
-    transform:skewX(-20deg);
+    transform:skewX(-25deg);
 }
-.shape-1{
-    width:220px;
-    right:120px;
-    background:rgba(102,168,255,.28);
+.band-1{
+    width:180px;
+    right:180px;
+    background:rgba(96,156,240,.35);
 }
-.shape-2{
-    width:140px;
-    right:70px;
-    background:rgba(71,132,221,.42);
+.band-2{
+    width:120px;
+    right:110px;
+    background:rgba(70,130,220,.45);
 }
-.shape-3{
+.band-3{
     width:90px;
+    right:55px;
+    background:rgba(38,85,170,.5);
+}
+.band-4{
+    width:75px;
     right:0;
-    background:rgba(10,38,92,.82);
-}
-.hero-banner{
-    margin-top:72px;
-}
-.arc{
-    position:absolute;
-    border-radius:50%;
-}
-.arc-1{
-    width:520px;
-    height:520px;
-    right:-250px;
-    top:-180px;
-    border:65px solid rgba(255,255,255,.08);
-}
-.arc-2{
-    width:420px;
-    height:420px;
-    right:-180px;
-    top:-140px;
-    border:65px solid rgba(120,180,255,.14);
-}
-.arc-3{
-    width:320px;
-    height:320px;
-    right:-110px;
-    top:-90px;
-    border:60px solid rgba(70,130,220,.22);
-}
-.ribbon{
-    position:absolute;
-    transform:skewX(-28deg);
-    top:-80px;
-    height:280px;
-}
-.ribbon-1{
-    width:90px;
-    right:190px;
-    background:rgba(110,170,255,.25);
-}
-.ribbon-2{
-    width:65px;
-    right:120px;
-    background:rgba(40,90,180,.35);
+    background:#14346E;
 }
