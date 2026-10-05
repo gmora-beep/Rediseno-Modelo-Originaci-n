@@ -93,13 +93,6 @@ body{
     color:#162B5B;
 }
 
-.fresh-icon{
-    width:24px;
-    height:24px;
-    border-radius:50%;
-    background:var(--verde);
-}
-
 .menu{
     display:flex;
     gap:20px;
@@ -150,3 +143,51 @@ body{
 main{
     padding-top:120px;
 }
+/* LOGO CSB */
+.consubanco-icon{
+    position:relative;
+    width:34px;
+    height:34px;
+    border-radius:50%;
+    background:#173A70;
+}
+
+.consubanco-icon::before{
+    content:'';
+    position:absolute;
+    width:22px;
+    height:22px;
+    border-radius:50%;
+    background:white;
+    left:4px;
+    bottom:4px;
+}
+
+.cs-orange{
+    position:absolute;
+    width:14px;
+    height:14px;
+    border-radius:50%;
+    background:#F07D22;
+    top:2px;
+    right:2px;
+}
+
+.cs-blue{
+    display:none;
+}
+/* LOGO FRESH */
+.fresh-icon{
+    position:relative;
+    width:28px;
+    height:28px;
+    border-radius:50%;
+    border:8px solid #28A745;
+}
+
+.fresh-icon::after{
+    content:'';
+    position:absolute;
+    width:10px;
+    height:16px;
+    background
