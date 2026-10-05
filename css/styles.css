@@ -132,7 +132,17 @@ body{
     font-size:24px;
     cursor:pointer;
 }
-
+.update-date{
+    font-size:11px;
+    line-height:1.2;
+    color:#425466;
+    text-align:right;
+}
+.update-date strong{
+    font-weight:700;
+    color:var(--azul);
+    font-size:12px;
+}
 /* IMPORTANTE */
 
 main{
