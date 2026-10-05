@@ -91,7 +91,7 @@ body{
 .menu{
     display:flex;
     gap:6px;
-    margin-left:40px;
+    margin-left:80px;
 }
 
 .menu a{
