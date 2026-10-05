@@ -211,6 +211,8 @@ main{
 }
 /* ENCABEZADO PAGINA PRINCIPAL */
 .hero-banner{
+    position:relative;
+    height:170px;
     background:
         radial-gradient(
             circle at 12% 15%,
@@ -223,10 +225,11 @@ main{
             #214D95 65%,
             #214D95 100%
         );
-    position:relative;
     overflow:hidden;
     display:flex;
+    align-items:center;
 }
+``
 .hero-shapes{
     position:absolute;
     inset:0;
@@ -236,18 +239,16 @@ main{
     z-index:10;
     align-items:center;
     padding:0 40px;
-    margin-top:72px;
 }
 .hero-content h1{
     color:white;
-    font-size:32px;
+    font-size:28px;
     font-weight:700;
-    margin:0 0 10px;
+    margin-bottom:12px;
 }
 .hero-content p{
-    color:rgba(255,255,255,.85);
-    font-size:20px;
-    margin:0;
+    color:rgba(255,255,255,.9);
+    font-size:15px;
 }
 .band{
     position:absolute;
