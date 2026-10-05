@@ -121,8 +121,8 @@ body{
 }
 
 .update-date{
-    font-size:13px;
-    color:#425466;
+    font-size:12px;
+    color:#7A869A;
     line-height:1.4;
     text-align:right;
 }
@@ -133,16 +133,12 @@ body{
     font-size:24px;
     cursor:pointer;
 }
-.update-date{
-    font-size:11px;
-    line-height:1.2;
-    color:#425466;
-    text-align:right;
-}
 .update-date strong{
+    display:block;
+    margin-top:2px;
     font-weight:700;
     color:var(--azul);
-    font-size:12px;
+    font-size:15px;
 }
 /* IMPORTANTE */
 
