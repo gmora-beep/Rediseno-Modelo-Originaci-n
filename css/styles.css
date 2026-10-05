@@ -13,7 +13,7 @@
 
 body{
     font-family:'Montserrat',sans-serif;
-    background:var(--gris);
+    background:#EEF2F7;
 }
 
 /* HEADER */
@@ -140,11 +140,7 @@ body{
     color:var(--azul);
     font-size:15px;
 }
-/* IMPORTANTE */
 
-main{
-    padding-top:120px;
-}
 /* LOGO CSB */
 .consubanco-icon{
     position:relative;
@@ -289,8 +285,10 @@ main{
     justify-content:space-between;
     align-items:flex-start;
     gap:40px;
-    padding:30px 40px;
+    padding:22px 40px 30px 40px;
     background:#ffffff;
+    border-radius:0 0 16px 16px;
+    margin:0 20px 20px 20px;
 }
 .overview-left{
     flex:1;
@@ -305,9 +303,10 @@ main{
 }
 .project-objective{
     color:#4B5563;
-    font-size:18px;
-    line-height:1.8;
-    max-width:850px;
+    font-size:26px;
+    line-height:1.55;
+    max-width:950px;
+    font-weight:300;
 }
 .project-dates{
     display:flex;
@@ -328,10 +327,10 @@ main{
     font-size:16px;
 }
 .summary-card{
-    width:380px;
+    width:320px;
     background:#F4F7FB;
     border-radius:18px;
-    padding:28px;
+    padding:24px;
 }
 .days-section{
     text-align:center;
