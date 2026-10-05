@@ -213,17 +213,22 @@ main{
 .hero-banner{
     position:relative;
     height:150px;
-    background:linear-gradient(
-        110deg,
-        #143A73 0%,
-        #1C4B8E 45%,
-        #245BA2 100%
-    );
+    background:
+        radial-gradient(
+            circle at top left,
+            rgba(80,140,220,.30),
+            transparent 45%
+        ),
+        linear-gradient(
+            90deg,
+            #163F7A 0%,
+            #214F96 60%,
+            #214F96 100%
+        );
     overflow:hidden;
     display:flex;
     align-items:center;
     padding:0 60px;
-    border-bottom:1px solid rgba(255,255,255,.1);
 }
 .hero-content{
     position:relative;
@@ -279,4 +284,45 @@ main{
 }
 .hero-banner{
     margin-top:72px;
+}
+.arc{
+    position:absolute;
+    border-radius:50%;
+}
+.arc-1{
+    width:520px;
+    height:520px;
+    right:-250px;
+    top:-180px;
+    border:65px solid rgba(255,255,255,.08);
+}
+.arc-2{
+    width:420px;
+    height:420px;
+    right:-180px;
+    top:-140px;
+    border:65px solid rgba(120,180,255,.14);
+}
+.arc-3{
+    width:320px;
+    height:320px;
+    right:-110px;
+    top:-90px;
+    border:60px solid rgba(70,130,220,.22);
+}
+.ribbon{
+    position:absolute;
+    transform:skewX(-28deg);
+    top:-80px;
+    height:280px;
+}
+.ribbon-1{
+    width:90px;
+    right:190px;
+    background:rgba(110,170,255,.25);
+}
+.ribbon-2{
+    width:65px;
+    right:120px;
+    background:rgba(40,90,180,.35);
 }
