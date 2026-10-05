@@ -246,32 +246,35 @@ main{
 }
 .shape{
     position:absolute;
-    top:0;
-    right:0;
-    clip-path:polygon(
-        30% 0%,
-        100% 0%,
-        70% 100%,
-        0% 100%
-    );
+    top:-40px;
+    height:220px;
+    border-radius:100px 0 0 100px;
+    transform:skewX(-20deg);
+}
+.shape-0{
+    position:absolute;
+    top:-80px;
+    right:180px;
+    width:280px;
+    height:260px;
+    background:rgba(130,190,255,.12);
+    border-radius:120px 0 0 120px;
+    transform:skewX(-20deg);
 }
 .shape-1{
-    width:240px;
-    height:100%;
-    background:rgba(93,166,255,.35);
-    right:140px;
+    width:220px;
+    right:120px;
+    background:rgba(102,168,255,.28);
 }
 .shape-2{
-    width:170px;
-    height:100%;
-    background:rgba(58,120,204,.55);
+    width:140px;
     right:70px;
+    background:rgba(71,132,221,.42);
 }
 .shape-3{
-    width:120px;
-    height:100%;
-    background:rgba(10,38,92,.85);
+    width:90px;
     right:0;
+    background:rgba(10,38,92,.82);
 }
 .hero-banner{
     margin-top:72px;
