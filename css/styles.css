@@ -1,9 +1,8 @@
 :root{
     --azul:#173A70;
-    --azul-sec:#315A97;
-    --verde:#27AE60;
-    --gris:#F5F7FA;
-    --borde:#DDE5F0;
+    --verde:#2AA65A;
+    --gris:#F4F6FA;
+    --texto:#1F2D3D;
 }
 
 *{
@@ -14,20 +13,140 @@
 
 body{
     font-family:'Montserrat',sans-serif;
-    background:#F5F7FA;
+    background:var(--gris);
 }
 
-h1{
-    color:#173A70;
-}
+/* HEADER */
 
 .topbar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+
+    height:92px;
     background:white;
-    padding:20px;
-    border-bottom:1px solid #DDE5F0;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    padding:0 40px;
+
+    border-bottom:1px solid #E6EAF0;
+
+    z-index:1000;
 }
 
-.brand{
+.topbar-left{
+    display:flex;
+    align-items:center;
+}
+
+.logo-consubanco{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.logo-title{
+    color:var(--azul);
+    font-size:18px;
     font-weight:700;
-    color:#173A70;
+}
+
+.logo-subtitle{
+    font-size:12px;
+    color:#667085;
+}
+
+.logo-circle{
+    width:18px;
+    height:18px;
+    border-radius:50%;
+    display:block;
+}
+
+.logo-circle.blue{
+    background:#173A70;
+}
+
+.logo-circle.orange{
+    background:#F07D22;
+    margin-left:-10px;
+}
+
+.separator{
+    width:1px;
+    height:40px;
+    background:#D9DFE8;
+    margin:0 28px;
+}
+
+.logo-fresh{
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+    font-size:22px;
+    font-weight:700;
+    color:#162B5B;
+}
+
+.fresh-icon{
+    width:24px;
+    height:24px;
+    border-radius:50%;
+    background:var(--verde);
+}
+
+.menu{
+    display:flex;
+    gap:20px;
+}
+
+.menu a{
+    text-decoration:none;
+    color:var(--azul);
+
+    font-size:15px;
+    font-weight:600;
+
+    padding:12px 18px;
+    border-radius:14px;
+
+    transition:.3s;
+}
+
+.menu a:hover{
+    background:#EEF3FB;
+}
+
+.menu a.active{
+    background:#DCE8FB;
+}
+
+.topbar-right{
+    display:flex;
+    align-items:center;
+}
+
+.update-date{
+    font-size:13px;
+    color:#425466;
+    line-height:1.4;
+    text-align:right;
+}
+
+.search-btn{
+    border:none;
+    background:none;
+    font-size:24px;
+    cursor:pointer;
+}
+
+/* IMPORTANTE */
+
+main{
+    padding-top:120px;
 }
