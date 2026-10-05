@@ -214,9 +214,10 @@ main{
     position:relative;
     height:150px;
     background:linear-gradient(
-        90deg,
+        110deg,
         #143A73 0%,
-        #1D4D8F 100%
+        #1C4B8E 45%,
+        #245BA2 100%
     );
     overflow:hidden;
     display:flex;
