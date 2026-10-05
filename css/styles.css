@@ -244,6 +244,7 @@ main{
     padding-left:36px;
 }
 .hero-content h1{
+    font-family:'Merriweather', serif;
     color:white;
     font-size:38px;
     font-weight:600;
