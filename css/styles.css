@@ -209,3 +209,70 @@ main{
     left:12px;
     border-radius:4px;
 }
+/* ENCABEZADO PAGINA PRINCIPAL */
+.hero-banner{
+    position:relative;
+    height:150px;
+    background:linear-gradient(
+        90deg,
+        #143A73 0%,
+        #1D4D8F 100%
+    );
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+    padding:0 60px;
+    border-bottom:1px solid rgba(255,255,255,.1);
+}
+.hero-content{
+    position:relative;
+    z-index:10;
+}
+.hero-content h1{
+    color:white;
+    font-size:32px;
+    font-weight:700;
+    margin:0 0 10px;
+}
+.hero-content p{
+    color:rgba(255,255,255,.85);
+    font-size:20px;
+    margin:0;
+}
+.hero-shapes{
+    position:absolute;
+    inset:0;
+    pointer-events:none;
+}
+.shape{
+    position:absolute;
+    top:0;
+    right:0;
+    clip-path:polygon(
+        30% 0%,
+        100% 0%,
+        70% 100%,
+        0% 100%
+    );
+}
+.shape-1{
+    width:240px;
+    height:100%;
+    background:rgba(93,166,255,.35);
+    right:140px;
+}
+.shape-2{
+    width:170px;
+    height:100%;
+    background:rgba(58,120,204,.55);
+    right:70px;
+}
+.shape-3{
+    width:120px;
+    height:100%;
+    background:rgba(10,38,92,.85);
+    right:0;
+}
+.hero-banner{
+    margin-top:72px;
+}
