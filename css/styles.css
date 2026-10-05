@@ -212,7 +212,7 @@ main{
 /* ENCABEZADO PAGINA PRINCIPAL */
 .hero-banner{
     position:relative;
-    height:170px;
+    height:130px;
     background:
         radial-gradient(
             circle at 12% 15%,
@@ -221,9 +221,9 @@ main{
         ),
         linear-gradient(
             90deg,
-            #153C75 0%,
-            #214D95 65%,
-            #214D95 100%
+            #0F356D 0%,
+            #19478B 65%,
+            #1C4A90 100%
         );
     overflow:hidden;
     display:flex;
@@ -241,16 +241,19 @@ main{
     align-items:center;
     padding:0 40px;
     width:100%;
+    padding-left:36px;
 }
 .hero-content h1{
     color:white;
     font-size:28px;
-    font-weight:700;
-    margin-bottom:12px;
+    font-weight:600;
+    letter-spacing:-0.3px;
+    margin-bottom:4px;
 }
 .hero-content p{
-    color:rgba(255,255,255,.9);
-    font-size:15px;
+    font-size:13px;
+    font-weight:300;
+    color:rgba(255,255,255,.88);
 }
 .band{
     position:absolute;
