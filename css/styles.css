@@ -223,10 +223,15 @@ main{
             #214D95 65%,
             #214D95 100%
         );
+    overflow:hidden;
+    display:flex;
 }
 .hero-content{
     position:relative;
     z-index:10;
+    align-items:center;
+    padding:0 40px;
+    margin-top:72px;
 }
 .hero-content h1{
     color:white;
